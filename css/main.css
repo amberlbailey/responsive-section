@@ -16,3 +16,30 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+section {
+  overflow: hidden;
+  background-color: #e5c30a;
+}
+
+.section-letter {
+  width: 50%;
+  margin-left: 0;
+  float: left;
+}
+
+.section-icon {
+  width: 50%;
+  margin-right: 0;
+  float: left;
+}
+
+.wrapper {
+
+  margin: 0 auto;
+  max-width: 50em;
+}

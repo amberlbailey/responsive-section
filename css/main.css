@@ -26,20 +26,22 @@ section {
   background-color: #e5c30a;
 }
 
-.section-letter {
+.section-letter img{
   width: 50%;
-  margin-left: 0;
   float: left;
 }
 
-.section-icon {
+.section-icon img {
   width: 50%;
-  margin-right: 0;
-  float: left;
+  float: right;
 }
 
-.wrapper {
+h1 {
+  font-weight: 700;
+}
 
-  margin: 0 auto;
-  max-width: 50em;
+@media only screen and (min-width: 25em) {
+
+
+
 }
